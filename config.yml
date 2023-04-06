@@ -1,7 +1,7 @@
 baseurl: "https://fabioarnez.github.io/test-conference-website/"
 title: "PMCI-2023"
 canonifyurls: true
-# theme: "hugo-conference"
+theme: "hugo-conference"
 publishDir: "docs"
 GoogleAnalytics: ""
 
