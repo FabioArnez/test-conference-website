@@ -1,11 +1,8 @@
-baseurl: "https://example.org/"  
-# baseurl: "https://fabioarnez.github.io/test-pmci/"
-# baseurl: "https://fabioarnez.github.io/test-conference-website/"
+baseurl: "https://fabioarnez.github.io/test-conference-website/"
 title: "PMCI-2023"
 canonifyurls: true
 # theme: "hugo-conference"
-# publishDir: "docs"
-
+publishDir: "docs"
 GoogleAnalytics: ""
 
 params:
