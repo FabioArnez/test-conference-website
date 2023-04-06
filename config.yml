@@ -1,0 +1,158 @@
+# baseurl: "https://example.org/"
+baseurl: "https://fabioarnez.github.io/test-pmci/"
+title: "PMCI-2023"
+canonifyurls: true
+theme: "hugo-conference"
+
+GoogleAnalytics: ""
+
+params:
+  # Conference info
+  Name: "Paris-Saclay Multidisciplinary Conference of International PhD Students"
+  Description: "Conference description"
+  Date: "April 11, 2023"
+  # Price: "Only $100" # If your event is free, just comment this line
+  Venue: "Ecole Normal Superieure Paris-Saclay-Room 2E35"
+  Address: "4 Av. des Sciences"
+  City:  "91190 Gif-sur-Yvette"
+  # State: "Essone"
+  Images: ["/img/atom_icon.png"]
+  GoogleMapsKey: "AIzaSyBfed-dluTVsR2Aj3WIAJnF60fMy1RsYbc"
+
+
+  # Active sections on the website to deactivate comment out with '#'
+  # you can also change order here and it will reflect on page
+  Sections:
+    - about
+    - schedule
+    # - speakers
+    - location
+    - sponsors
+    # - partners
+    #- contact
+
+  # Titles which you can translate to other languages
+  Titles:
+    about: "About"
+    location: "Location"
+    speakers: "Speakers"
+    schedule: "Schedule"
+    sponsors: "Sponsors"
+    partners: "Partners"
+    contact: "Contact"
+
+  # The Call To Action button at the header,
+  # If you don't want this, just remove the callToAction property.
+  # CallToAction:
+  #   text: "Register now!"
+  #   link: "http://register.example.com"
+
+  # Fork me on GitHub, if you don't want this, just remove the forkButton property
+  # ForkButton:
+  #   repository: "https://github.com/jweslley/hugo-conference/"
+
+  # List of Sponsors
+  Sponsors:
+    - name: "Universite Paris-Saclay"
+      logo: "img/universite-paris-saclay.jpg"
+    - name: "ensps"
+      logo: "img/ensps.png"
+    - name: "inria"
+      logo: "img/inria.png"
+
+  # List of Partners
+  Partners:
+    - name: "Hugo"
+      logo: "img/hugo.jpg"
+      url: "https://gohugo.io"
+    - name: "BrazilJS"
+      logo: "/img/partner.png"
+      url: "http://braziljs.org"
+
+  # The entire schedule
+  Schedule:
+    - name: "Check-in"
+      time: "08h55 - 09h00"
+
+    - name: "Opening session"
+      presentation:
+        time: "9h00 - 9h35"
+        title: "Conference opening by Milena Giromini on behalf of the Organising Commitee"
+
+    - name: "Olivier Destrian"
+      photo: "/img/presenter.png"
+      bio: "ToDo"
+      company: "Universite Paris-Saclay"
+      presentation:
+        title: "Theoretical and experimental study of intracellular diffusion using a porous media approach"
+        description: "ToDo"
+        time: "9h35 - 9h55"
+
+    - name: "Milica Mastilovic"
+      photo: "/img/presenter.png"
+      bio: "ToDo"
+      company: "Universite Paris-Saclay"
+      presentation:
+        title: "Artificial intelligence in the detection of multiple sclerosis paques: can it influece the treatment decision?"
+        description: "ToDo"
+        time: "9h55 - 10h15"
+
+    - name: "Aya Kanj"
+      photo: "/img/presenter.png"
+      bio: "ToDo"
+      company: "Universite Paris-Saclay"
+      presentation:
+        title: "Development of neutron imager spectrometer"
+        description: "ToDo"
+        time: "10h15 - 10h35"        
+
+    - name: "Ricardo Ossanna"
+      photo: "/img/presenter.png"
+      bio: "ToDo"
+      company: "Universite Paris-Saclay"
+      presentation:
+        title: "CAP-PHOTOAC controlling optical absorption through photoreactive nanovectors"
+        description: "ToDo"
+        time: "10h35 - 10h55"     
+
+    - name: "Coffe break"
+      time: "10h35 - 10h55"
+
+    - name: "Charlotte"
+      photo: "/img/presenter.png"
+      bio: "ToDo"
+      company: "Universite Paris-Saclay"
+      presentation:
+        title: "TBD"
+        description: "ToDo"
+        time: "11h00 - 10h20"
+
+    - name: "Flavien Armangeon"
+      photo: "/img/presenter.png"
+      bio: "ToDo"
+      company: "Universite Paris-Saclay"
+      presentation:
+        title: "Pattern recognition in 3D point clouds and images of industrial facilities from operating diagrams"
+        description: "ToDo"
+        time: "11h20 - 10h40"
+
+    - name: "Jiacheng"
+      photo: "/img/presenter.png"
+      bio: "ToDo"
+      company: "Universite Paris-Saclay"
+      presentation:
+        title: "TBD"
+        description: "ToDo"
+        time: "11h40 - 12h00"
+
+    - name: "Closing ceremony"
+      presentation:
+        time: "12h00 - 12h05"
+        title: "Conference closing ceremony"
+
+    - name: "Professor speech"
+      presentation:
+        time: "12h00 - 12h05"
+        title: "Professor speech and feedback"   
+
+
