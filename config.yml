@@ -71,11 +71,11 @@ params:
   # The entire schedule
   Schedule:
     - name: "Check-in"
-      time: "08h55 - 09h00"
+      time: "09h00 - 09h30"
 
     - name: "Opening session"
       presentation:
-        time: "9h00 - 9h35"
+        time: "9h30 - 9h35"
         title: "Conference opening by Milena Giromini on behalf of the Organising Commitee"
 
     - name: "Olivier Destrian"
@@ -103,7 +103,10 @@ params:
       presentation:
         title: "Development of neutron imager spectrometer"
         description: "ToDo"
-        time: "10h15 - 10h35"        
+        time: "10h15 - 10h35"
+
+    - name: "Coffe break"
+      time: "10h35 - 10h55"
 
     - name: "Ricardo Ossanna"
       photo: "/img/presenter.png"
@@ -112,19 +115,7 @@ params:
       presentation:
         title: "CAP-PHOTOAC controlling optical absorption through photoreactive nanovectors"
         description: "ToDo"
-        time: "10h35 - 10h55"     
-
-    - name: "Coffe break"
-      time: "10h35 - 10h55"
-
-    - name: "Charlotte"
-      photo: "/img/presenter.png"
-      bio: "ToDo"
-      company: "Universite Paris-Saclay"
-      presentation:
-        title: "TBD"
-        description: "ToDo"
-        time: "11h00 - 10h20"
+        time: "10h55 - 11h15"     
 
     - name: "Flavien Armangeon"
       photo: "/img/presenter.png"
@@ -133,25 +124,25 @@ params:
       presentation:
         title: "Pattern recognition in 3D point clouds and images of industrial facilities from operating diagrams"
         description: "ToDo"
-        time: "11h20 - 10h40"
+        time: "11h15 - 11h35"
 
-    - name: "Jiacheng"
+    - name: "Jiacheng Li"
       photo: "/img/presenter.png"
       bio: "ToDo"
       company: "Universite Paris-Saclay"
       presentation:
-        title: "TBD"
+        title: "Asymmetric autocatalysis applied to Strecker reaction"
         description: "ToDo"
-        time: "11h40 - 12h00"
+        time: "11h35 - 11h55"
 
     - name: "Closing ceremony"
       presentation:
-        time: "12h00 - 12h05"
+        time: "11h55 - 12h00"
         title: "Conference closing ceremony"
 
     - name: "Professor speech"
       presentation:
-        time: "12h00 - 12h05"
+        time: "12h00 - 12h30"
         title: "Professor speech and feedback"   
 
 
